@@ -1,2 +1,2 @@
-# Palindrome-Task
-Palindrome project written in python
+# PYTHON NOTES
+Practice in python
