@@ -5,4 +5,4 @@ word = word.replace(' ','')
 if word==reversed_word:
     print('The word is a paindrome')
 else:
-    print('The word is not a palindrome')
+    print('The word is not a palindrome.')
