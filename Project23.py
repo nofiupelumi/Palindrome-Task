@@ -67,3 +67,17 @@ try:
     teacher(teacher_abubakar)
 except PermissionError as e:
     print(e)
+
+
+
+#     Write a program on a log decorator that logs info about a function's execution, including its
+# arguments and return value.
+# '''
+
+def log_decorator(f):
+    def wrapper_func(*args, **kwargs):
+        func_name = f.__name__
+        print(f"The log is calling the {func_name} function with arguments: {args}, kwargs: {kwargs}.")
+        response = f(*args, **kwargs)
+        return response
+    return wrapper_func
